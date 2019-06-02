@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2BA6B5C6-F8A2-4FE3-9AD3-D667233F5A70}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LabiryntWiedzy</RootNamespace>
+    <AssemblyName>LabiryntWiedzy</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\LabiryntWiedzy.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ciekawostka1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciekawostka1.Designer.cs">
+      <DependentUpon>ciekawostka1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ciekawostka2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciekawostka2.Designer.cs">
+      <DependentUpon>ciekawostka2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ciekawostka3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciekawostka3.Designer.cs">
+      <DependentUpon>ciekawostka3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ciekawostka4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciekawostka4.Designer.cs">
+      <DependentUpon>ciekawostka4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ciekawostka5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ciekawostka5.Designer.cs">
+      <DependentUpon>ciekawostka5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instrukcja.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Instrukcja.Designer.cs">
+      <DependentUpon>Instrukcja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab1.Designer.cs">
+      <DependentUpon>Lab1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab2.Designer.cs">
+      <DependentUpon>Lab2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab3.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab3.Designer.cs">
+      <DependentUpon>Lab3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab4.Designer.cs">
+      <DependentUpon>Lab4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lab5.Designer.cs">
+      <DependentUpon>Lab5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Podsumowanie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Podsumowanie.Designer.cs">
+      <DependentUpon>Podsumowanie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ciekawostka1.resx">
+      <DependentUpon>ciekawostka1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ciekawostka2.resx">
+      <DependentUpon>ciekawostka2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ciekawostka3.resx">
+      <DependentUpon>ciekawostka3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ciekawostka4.resx">
+      <DependentUpon>ciekawostka4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ciekawostka5.resx">
+      <DependentUpon>ciekawostka5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instrukcja.resx">
+      <DependentUpon>Instrukcja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab1.resx">
+      <DependentUpon>Lab1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab2.resx">
+      <DependentUpon>Lab2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab3.resx">
+      <DependentUpon>Lab3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab4.resx">
+      <DependentUpon>Lab4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab5.resx">
+      <DependentUpon>Lab5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Podsumowanie.resx">
+      <DependentUpon>Podsumowanie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kursorLW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_mini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minilogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\220na90.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\610na230.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gotowe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ksiazka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ksiazka_pstryk.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\meta_klaskanie.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sciana_CantTouchThis.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\czas_klask.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

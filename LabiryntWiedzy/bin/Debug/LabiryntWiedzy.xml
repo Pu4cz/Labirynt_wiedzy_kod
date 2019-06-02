@@ -1,0 +1,803 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LabiryntWiedzy</name>
+    </assembly>
+    <members>
+        <member name="T:LabiryntWiedzy.ciekawostka1">
+            <summary>
+            Klasa zawierające wszystkie funkcjie związane z ciekawostką poziomu pierwszego
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka1.Ciekawostka1">
+            <summary>
+            Zawartość ciekawostki 1
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka1.WyswietlanieCiekawostki">
+            <summary>
+            Funkcja określająca czy ilość zebranych książek jest wystarczająca do wyświetlenia ciekawostki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka1.Next1(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do kolejnego poziomu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka1.Back1(System.Object,System.EventArgs)">
+            <summary>
+            Powtórzenie poziomu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka1.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.ciekawostka2">
+            <summary>
+            Klasa zawierające wszystkie funkcjie związane z ciekawostką poziomu drugiego
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka2.Ciekawostka2">
+            <summary>
+            Zawartość ciekawostki 2
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka2.WyswietlanieCiekawostki">
+            <summary>
+            Funkcja określająca czy ilość zebranych książek jest wystarczająca do wyświetlenia ciekawostki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka2.Next2(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do kolejnego poziomu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka2.Back2(System.Object,System.EventArgs)">
+            <summary>
+            Powtórzenie poziomu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka2.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka2.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka2.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.ciekawostka3">
+            <summary>
+            Klasa zawierające wszystkie funkcjie związane z ciekawostką poziomu trzeciego
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka3.Ciekawostka3">
+            <summary>
+             Zawartość ciekawostki 3
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka3.WyswietlanieCiekawostki">
+            <summary>
+             Funkcja określająca czy ilość zebranych książek jest wystarczająca do wyświetlenia ciekawostki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka3.Next3(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do kolejnego poziomu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka3.Back3(System.Object,System.EventArgs)">
+            <summary>
+            Powtórzenie poziomu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka3.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka3.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka3.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.ciekawostka4">
+            <summary>
+            Klasa zawierające wszystkie funkcjie związane z ciekawostką poziomu czwartego
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka4.Ciekawostka4">
+            <summary>
+             Zawartość ciekawostki 4
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka4.WyswietlanieCiekawostki">
+            <summary>
+            Funkcja określająca czy ilość zebranych książek jest wystarczająca do wyświetlenia ciekawostki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka4.Next4(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do kolejnego poziomu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka4.Back4(System.Object,System.EventArgs)">
+            <summary>
+            Powtórzenie poziomu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka4.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka4.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka4.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.ciekawostka5">
+            <summary>
+            Klasa zawierające wszystkie funkcjie związane z ciekawostką poziomu piątego
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka5.Ciekawostka5">
+            <summary>
+             Zawartość ciekawostki 5
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka5.WyswietlanieCiekawostki">
+            <summary>
+            Funkcja określająca czy ilość zebranych książek jest wystarczająca do wyświetlenia ciekawostki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka5.Suma(System.Object,System.EventArgs)">
+            <summary>
+            Przejście do podsumowania rozgrywki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka5.Back5(System.Object,System.EventArgs)">
+            <summary>
+            Powtórzenie poziomu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.ciekawostka5.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka5.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.ciekawostka5.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.MenuGlowne">
+            <summary>
+            Klasa główna definiująca zawartość multimedialną i pełniąca funkcję sterowania zawartością
+            </summary>
+            <seealso cref="T:System.Windows.Forms.Form" />
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.ZmienKursor">
+            <summary>
+            Funkcja zmieniająca kursor na własną grafikę
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.startgry_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja, która wywołuje pierwszy poziom gry na panel główny (poprzez dynamiczą zmianę zawartości panelu)
+            </summary>       
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.instrukcja_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja, która wywołuje instrikcję na panel główny (poprzez dynamiczą zmianę zawartości panelu)
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.wyjscie_Click(System.Object,System.EventArgs)">
+            <summary>
+            Funkcją wyłączania gry
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.MenuGlowne.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.MenuGlowne.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Instrukcja">
+            <summary>
+            Klasa, która zawiera wszystkie funkcje związane z instrukcją
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.Instrukcja.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Instrukcja.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Instrukcja.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Lab1">
+            <summary>
+            Klasa zawierająca wszystkie metody związane z pierwszym poziomem
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.PrzejscieDoStartu">
+            <summary>
+            Przejscie kursora na start z menu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.PowrotDoStartu">
+            <summary>
+            Powrot na start labiryntu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab1.Ksiazki1">
+            <summary>
+            Ilość zebranych ksiązek 
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.ZbierzKsiazki">
+            <summary>
+            Funkcja dodająca 1 do puli zebranych ksiązek i wyświetlająca aktualną ilość
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Ks1(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie pierwszej książki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Ks2(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie drugiej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Ks3(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie trzeciej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.ResetKsiazek">
+            <summary>
+            Funkcja przywracania książek (reset poziomu)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab1.WynikPoz1">
+            <summary>
+            Aktualny czas, a zarazem wynik poziomu 1
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Timer1(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja związana z działaniem licznika czasu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Meta1(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zakończenia poziomu i przejścia do panelu ciekawostki (dynamiczna zmiana zawartości)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab1.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab1.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Lab2">
+            <summary>
+            Klasa zawierająca wszystkie metody związane z drugim poziomem
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.PrzejscieDoStartu">
+            <summary>
+            Przejscie kursora na start z menu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.PowrotDoStartu">
+            <summary>
+            Powrot na start labiryntu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab2.Ksiazki2">
+            <summary>
+            Ilość zebranych ksiązek 
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.ZbierzKsiazki">
+            <summary>
+            Funkcja dodająca 1 do puli zebranych ksiązek i wyświetlająca aktualną ilość
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Ks1(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie pierwszej książki
+            </summary>     
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Ks2(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie drugiej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Ks3(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie trzeciej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.ResetKsiazek">
+            <summary>
+            Funkcja przywracania książek (reset poziomu)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab2.WynikPoz2">
+            <summary>
+            Aktualny czas, a zarazem wynik poziomu 2
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Timer2(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja związana z działaniem licznika czasu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Meta2(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zakończenia poziomu i przejścia do panelu ciekawostki (dynamiczna zmiana zawartości)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab2.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab2.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Lab3">
+            <summary>
+            Klasa zawierająca wszystkie metody związane z trzecim poziomem
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.PrzejscieDoStartu">
+            <summary>
+            Przejscie kursora na start z menu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.PowrotDoStartu">
+            <summary>
+            Powrot na start labiryntu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab3.Ksiazki3">
+            <summary>
+            Ilość zebranych ksiązek 
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.ZbierzKsiazki">
+            <summary>
+            Funkcja dodająca 1 do puli zebranych ksiązek i wyświetlająca aktualną ilość
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Ks1(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie pierwszej książki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Ks2(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie drugiej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Ks3(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie trzeciej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.ResetKsiazek">
+            <summary>
+            Funkcja przywracania książek (reset poziomu)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab3.WynikPoz3">
+            <summary>
+            Aktualny czas, a zarazem wynik poziomu 3
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Timer3(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja związana z działaniem licznika czasu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Meta3(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zakończenia poziomu i przejścia do panelu ciekawostki (dynamiczna zmiana zawartości)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab3.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab3.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Lab4">
+            <summary>
+            Klasa zawierająca wszystkie metody związane z czwartym poziomem
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.PrzejscieDoStartu">
+            <summary>
+            Przejscie kursora na start z menu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.PowrotDoStartu">
+            <summary>
+            Powrot na start labiryntu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab4.Ksiazki4">
+            <summary>
+            Ilość zebranych ksiązek 
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.ZbierzKsiazki">
+            <summary>
+            Funkcja dodająca 1 do puli zebranych ksiązek i wyświetlająca aktualną ilość
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Ks1(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie pierwszej książki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Ks2(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie drugiej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Ks3(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie trzeciej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.ResetKsiazek">
+            <summary>
+            Funkcja przywracania książek (reset poziomu)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab4.WynikPoz4">
+            <summary>
+            Aktualny czas, a zarazem wynik poziomu 4
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Timer4(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja związana z działaniem licznika czasu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Meta4(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zakończenia poziomu i przejścia do panelu ciekawostki (dynamiczna zmiana zawartości)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab4.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab4.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Lab5">
+            <summary>
+            Klasa zawierająca wszystkie metody związane z piątym poziomem
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.PrzejscieDoStartu">
+            <summary>
+            Przejscie kursora na start z menu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.PowrotDoStartu">
+            <summary>
+            Powrot na start labiryntu
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab5.Ksiazki5">
+            <summary>
+            Ilość zebranych ksiązek 
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.ZbierzKsiazki">
+            <summary>
+            Funkcja dodająca 1 do puli zebranych ksiązek i wyświetlająca aktualną ilość
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Ks1(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie pierwszej książki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Ks2(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie drugiej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Ks3(System.Object,System.EventArgs)">
+            <summary>
+            Zebranie trzeciej ksiązki
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.ResetKsiazek">
+            <summary>
+            Funkcja przywracania książek (reset poziomu)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab5.WynikPoz5">
+            <summary>
+            Aktualny czas, a zarazem wynik poziomu 5
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Timer5(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja związana z działaniem licznika czasu
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Meta5(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zakończenia poziomu i przejścia do panelu ciekawostki (dynamiczna zmiana zawartości)
+            </summary>
+        </member>
+        <member name="F:LabiryntWiedzy.Lab5.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Lab5.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Podsumowanie">
+            <summary>
+            Klasa zawierająca wszystkie funkcje związane z zapisem rozgrywki.
+            </summary>
+            <seealso cref="T:System.Windows.Forms.UserControl" />
+        </member>
+        <member name="F:LabiryntWiedzy.Podsumowanie.WynikKoncowy">
+            <summary>
+            Suma wyników uzyskanych na wrzystkich poziomach
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.Wynik">
+            <summary>
+            Funkcja, która sumuje wyniki uzyskane z każdego poziomu.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.TekstPods">
+            <summary>
+            Funkcja generująca komentarz dotyczący umiejętności koncentracji gracza zależny od uzyskanego wyniku.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.Wyniki(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja pobierająca i wyświetlająca zawartość pliku z wynikami
+            </summary>      
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.Koniec(System.Object,System.EventArgs)">
+            <summary>
+            Funkcja zapisująca do pliku wynik wraz z nazwą gracza i wyjście z gry
+            </summary>     
+        </member>
+        <member name="F:LabiryntWiedzy.Podsumowanie.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:LabiryntWiedzy.Podsumowanie.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:LabiryntWiedzy.Program.Main">
+            <summary>
+            The main entry point for the application.
+            </summary>
+        </member>
+        <member name="T:LabiryntWiedzy.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources._220na90">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources._610na230">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.czas_klask">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.gotowe">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.ksiazka">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.ksiazka_pstryk">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.kursorLW">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.logo_mini">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.meta_klaskanie">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.minilogo">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LabiryntWiedzy.Properties.Resources.sciana_CantTouchThis">
+            <summary>
+              Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+            </summary>
+        </member>
+    </members>
+</doc>
